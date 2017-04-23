@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="./css/master.css">
+	<title>Infographic immigration in Europe</title>
+</head>
+
+<body>
+	<section class="options">
+		<h1>Options</h1>
+		<h2>Year: </h2>
+		<p>
+			<div class="slider" style="width:256px"></div><span id="value">2005</span>
+		 </p>
+		<div class="radiobuttons">
+			<h2>Data to show:</h2>
+			<div class="radiooption">
+				<input type="radio" id="optioni" name="Currentdata" value="immigrants" checked>
+				<label for="optioni">Immigrants</label>
+			</div>
+			<div class="radiooption">
+
+				<input type="radio" id="optionp" name="Currentdata" value="population">
+				<label for="optionp">Population</label>
+			</div>
+			<div class="radiooption">
+				<input type="radio" id="optionr" name="Currentdata" value="ratio">
+				<label for="optionr">Ratio</label>
+			</div>
+		</div>
+	</section>
+	<section class="map">
+
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="./jquery-jvectormap-2.0.3/jquery-jvectormap-2.0.3.min.js"></script>
+	<script src="./jquery-jvectormap-2.0.3/jquery-jvectormap-europe-mill.js"></script>
+	<script src="./functions.js"></script>
+</body>
+
+</html>
